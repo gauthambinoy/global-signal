@@ -24,14 +24,14 @@ const jetMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sapien-signal.vercel.app"),
+  metadataBase: new URL("https://global-signal.vercel.app"),
   title: {
-    default: "Global Signals — Real-Time Global Intelligence",
-    template: "%s · Global Signals",
+    default: "Global Signal — Real-Time Global Intelligence",
+    template: "%s · Global Signal",
   },
   description:
     "A real-time global intelligence dashboard aggregating public APIs across weather, earthquakes, markets, forex, energy, space, health, and technology signals.",
-  applicationName: "Global Signals",
+  applicationName: "Global Signal",
   authors: [{ name: "Gautham Binoy", url: "https://github.com/gauthambinoy" }],
   keywords: [
     "real-time dashboard",
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    title: "Global Signals — Real-Time Global Intelligence",
+    title: "Global Signal — Real-Time Global Intelligence",
     description:
       "Real-time global intelligence dashboard with 200+ APIs, 3D Earth, and editorial design.",
-    siteName: "Global Signals",
+    siteName: "Global Signal",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Global Signals",
+    title: "Global Signal",
     description: "Real-time global intelligence powered by public data.",
   },
   robots: { index: true, follow: true },

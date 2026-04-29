@@ -257,7 +257,7 @@ export default function Sidebar({ currentTab, onSelectTab, isOpen, onToggle, the
           )}
           {isOpen && (
             <a
-              href="https://github.com/gauthambinoy/sapien-signal"
+              href="https://github.com/gauthambinoy/global-signal"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 flex items-center gap-1 text-[10px] transition hover:opacity-80"

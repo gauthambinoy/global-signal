@@ -15,7 +15,7 @@ export function useDataNarration(data: {
     const parts: string[] = [];
     const time = new Date();
     const greeting = time.getHours() < 12 ? "Good morning" : time.getHours() < 17 ? "Good afternoon" : "Good evening";
-    parts.push(`${greeting}! Here's your Global Signals intelligence briefing.`);
+    parts.push(`${greeting}! Here's your Global Signal intelligence briefing.`);
 
     if (data.quakeCount !== undefined) {
       parts.push(`🌍 ${data.quakeCount} earthquakes detected in the past 24 hours${data.maxMagnitude ? `, strongest at M${data.maxMagnitude.toFixed(1)}` : ""}.`);

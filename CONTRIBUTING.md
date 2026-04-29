@@ -1,4 +1,4 @@
-# Contributing to Global Signals
+# Contributing to Global Signal
 
 ## Getting Started
 

@@ -175,7 +175,7 @@ export default function HeroSection({ onEnter }: HeroSectionProps) {
                 </svg>
               </button>
               <a
-                href="https://github.com/gauthambinoy/sapien-signal"
+                href="https://github.com/gauthambinoy/global-signal"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-2xl px-6 py-4 text-sm font-semibold text-white/60 transition-all hover:text-white/85"

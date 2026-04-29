@@ -1,17 +1,17 @@
-# Global Signals
+# Global Signal
 
 Real-time global intelligence dashboard built with Next.js, TypeScript, validated API routes, caching, health checks, maps, charts, and CI.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-sapien--signal.vercel.app-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://sapien-signal.vercel.app)
-[![CI](https://github.com/gauthambinoy/sapien-signal/actions/workflows/ci.yml/badge.svg)](https://github.com/gauthambinoy/sapien-signal/actions/workflows/ci.yml)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-global--signal.vercel.app-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://global-signal.vercel.app)
+[![CI](https://github.com/gauthambinoy/global-signal/actions/workflows/ci.yml/badge.svg)](https://github.com/gauthambinoy/global-signal/actions/workflows/ci.yml)
 [![Next.js](https://img.shields.io/badge/Next.js_14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 
-> Product rename in progress: the app is now positioned as **Global Signals**. The current deployment and repository URL still use the previous `sapien-signal` slug until the deployment/repository rename is completed.
+> **Global Signal** is the canonical name for the app, package, docs, and deployment slug.
 
 ## Why this project exists
 
-Public data is useful, but it is scattered across unreliable APIs, inconsistent response formats, rate limits, and separate dashboards. Global Signals brings those sources into one interface and normalizes the data through server-side API routes before it reaches the browser.
+Public data is useful, but it is scattered across unreliable APIs, inconsistent response formats, rate limits, and separate dashboards. Global Signal brings those sources into one interface and normalizes the data through server-side API routes before it reaches the browser.
 
 The engineering goal is not just a visual dashboard. The project demonstrates API integration, runtime validation, caching, failure isolation, typed frontend components, charts/maps, CI, Docker, and clear documentation.
 
@@ -90,8 +90,8 @@ External public APIs
 ## Local development
 
 ```bash
-git clone https://github.com/gauthambinoy/sapien-signal.git
-cd sapien-signal
+git clone https://github.com/gauthambinoy/global-signal.git
+cd global-signal
 npm install
 cp .env.example .env.local
 npm run dev
@@ -114,8 +114,8 @@ npm run check
 ## Docker
 
 ```bash
-docker build -t global-signals-dashboard .
-docker run -p 3000:3000 global-signals-dashboard
+docker build -t global-signal .
+docker run -p 3000:3000 global-signal
 ```
 
 ## Environment variables
@@ -124,7 +124,7 @@ docker run -p 3000:3000 global-signals-dashboard
 NEXT_PUBLIC_CESIUM_ION_TOKEN=
 NASA_API_KEY=
 NEWS_API_KEY=
-NEXT_PUBLIC_APP_NAME=Global Signals
+NEXT_PUBLIC_APP_NAME=Global Signal
 ```
 
 The app works without paid API keys. Optional keys unlock richer NASA, news, and globe-related data.
@@ -140,7 +140,6 @@ The app works without paid API keys. Optional keys unlock richer NASA, news, and
 - Add screenshots/GIFs under `docs/screenshots/`
 - Add Playwright end-to-end tests for navigation, health page, API fallback UI, and mobile layout
 - Add Lighthouse report and bundle analysis notes
-- Rename the GitHub repository and Vercel deployment from `sapien-signal` to `global-signals-dashboard`
 - Add a short case-study section with measurable performance and reliability outcomes
 
 ## License
