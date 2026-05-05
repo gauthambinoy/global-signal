@@ -205,8 +205,8 @@ The root `vercel.json` pins the framework and commands. `next.config.js` uses `o
 Post-deploy smoke tests:
 
 ```bash
-curl -I https://global-signal.vercel.app/
-curl https://global-signal.vercel.app/api/health-check
+curl -I https://unified-world-data.vercel.app/
+curl https://unified-world-data.vercel.app/api/health-check
 ```
 
 If `curl -I` shows `x-vercel-error: DEPLOYMENT_NOT_FOUND`, the request never reached this Next.js app. Reconnect the GitHub repository to a Vercel project or update the demo URL to the active deployment domain.

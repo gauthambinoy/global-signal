@@ -436,7 +436,7 @@ Pings external API endpoints and returns latency and status for each. This route
 **Recruiter/demo usage:**
 
 ```bash
-curl https://global-signal.vercel.app/api/health-check
+curl https://unified-world-data.vercel.app/api/health-check
 ```
 
 The route intentionally returns dependency health, not application uptime only. A `degraded` status can be acceptable when non-critical public APIs are rate-limited; critical failures should be investigated before sharing the live demo.

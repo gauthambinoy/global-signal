@@ -24,7 +24,7 @@ const jetMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://global-signal.vercel.app"),
+  metadataBase: new URL("https://unified-world-data.vercel.app"),
   title: {
     default: "Global Signal — Real-Time Global Intelligence",
     template: "%s · Global Signal",

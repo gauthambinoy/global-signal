@@ -2,7 +2,7 @@
 
 A recruiter-ready real-time global intelligence dashboard built with Next.js, TypeScript, validated API routes, caching, health checks, maps, charts, and CI.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-global--signal.vercel.app-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://global-signal.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-unified--world--data.vercel.app-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://unified-world-data.vercel.app)
 [![CI](https://github.com/gauthambinoy/global-signal/actions/workflows/ci.yml/badge.svg)](https://github.com/gauthambinoy/global-signal/actions/workflows/ci.yml)
 [![Next.js](https://img.shields.io/badge/Next.js_14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
@@ -17,7 +17,7 @@ The engineering goal is not just a visual dashboard. The project demonstrates AP
 
 ## Demo
 
-- **Live app:** https://global-signal.vercel.app
+- **Live app:** https://unified-world-data.vercel.app
 - **Primary route:** `/` renders the Next.js App Router application. It must not depend on uncommitted static design files.
 - **Deep links:** `/?tab=system`, `/?tab=weather`, `/?tab=markets`, `/?tab=space`
 - **Health endpoint:** `/api/health-check` returns live dependency status for deployment smoke tests.
@@ -145,11 +145,11 @@ The app uses server-side Next.js API routes, so deploy it as a Next.js app, not 
 7. Deploy, then verify:
 
 ```bash
-curl -I https://global-signal.vercel.app/
-curl https://global-signal.vercel.app/api/health-check
+curl -I https://unified-world-data.vercel.app/
+curl https://unified-world-data.vercel.app/api/health-check
 ```
 
-If the live URL returns `404` with `x-vercel-error: DEPLOYMENT_NOT_FOUND`, the domain is not attached to an active Vercel deployment. Create/reconnect the Vercel project, name it `global-signal` if that slug is available, and redeploy from the repository root. If the slug is unavailable, use the generated Vercel URL and update the live-demo badge plus `metadataBase` in `app/layout.tsx`.
+If the preferred `global-signal.vercel.app` alias returns `404` with `x-vercel-error: DEPLOYMENT_NOT_FOUND`, the domain is not attached to an active Vercel deployment. Create/reconnect the Vercel project, add that alias if it is available, and redeploy from the repository root. Until then, keep the live-demo badge and `metadataBase` pointed at the active Vercel URL above.
 
 ## Docker
 
